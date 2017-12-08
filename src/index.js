@@ -38,4 +38,4 @@ express.post('/', function (req, res) {
     app.handleRequest(actionMap)
 })
 
-expressApp.listen(8084, '0.0.0.0')
+express.listen(8084, '0.0.0.0')
