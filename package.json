@@ -1,0 +1,14 @@
+{
+  "name": "LocationPermissionTest",
+  "version": "1.0.0",
+  "description": "Debugging environment for location permissions",
+  "main": "src/index.js",
+  "repository": "git@github.com:zpv/LocationPermissionTest-Webhook.git",
+  "author": "Zhao, Steven (Best Buy Canada) <stezhao@bestbuycanada.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "actions-on-google": "^1.6.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
