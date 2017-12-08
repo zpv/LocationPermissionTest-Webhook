@@ -14,6 +14,8 @@ const Actions = {
 }
 
 const requestLocation = (app) => {
+    const preciseLocationPermission = app.SupportedPermissions.DEVICE_PRECISE_LOCATION
+    
     app.askForPermissions('To know your location',
         [preciseLocationPermission]);
 }
